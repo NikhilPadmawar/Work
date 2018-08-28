@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="79px" viewBox="0 0 78 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Blue Ticks</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.9%" y="-16.5%" width="120.9%" height="135.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.180392157   0 0 0 0 0.407843137   0 0 0 0 0.815686275  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Samples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-864.000000, -397.000000)" fill="#007AFF">
+            <g id="Chat" filter="url(#filter-1)" transform="translate(140.000000, 156.000000)">
+                <g id="Convo" transform="translate(461.000000, 212.000000)">
+                    <g id="Message">
+                        <g id="Blue-Ticks" transform="translate(295.000000, 58.799988)">
+                            <polygon id="Page-1" points="9.43302885 0 3.7673604 5.76892115 0.454599343 3.69876124 0 4.17236638 3.7673604 8 10 0.454190119"></polygon>
+                            <path d="M4.79885412,6 L5,6 L5,4.66448935 L6.7673604,5.76892115 L12.4330289,0 L13,0.454190119 L6.7673604,8 L4.79885412,6 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

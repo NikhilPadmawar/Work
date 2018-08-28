@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="33px" viewBox="0 0 28 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>notification</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Samples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1057.000000, -25.000000)">
+            <g id="notification" transform="translate(1058.000000, 25.000000)">
+                <path d="M16.25,27.9375 C16.25,29.733125 14.795625,31.1875 13,31.1875 C11.204375,31.1875 9.75,29.733125 9.75,27.9375" id="Shape" stroke="#4D8CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M0.8125,24.6875 L25.1875,24.6875" id="Shape" stroke="#4D8CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M23.5625,24.6875 L24.375,24.6875 C22.579375,24.6875 20.3125,23.233125 20.3125,21.4375 L20.3125,14.125 C20.3125,10.086875 17.038125,6.8125 13,6.8125 C8.961875,6.8125 5.6875,10.086875 5.6875,14.125 L5.6875,21.4375 C5.6875,23.233125 4.233125,24.6875 2.4375,24.6875" id="Shape" stroke="#4D8CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval-4" fill="#FF8752" cx="23" cy="3" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

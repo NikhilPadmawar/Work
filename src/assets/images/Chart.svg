@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="107px" viewBox="0 0 106 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-194.4%" y="-158.5%" width="488.9%" height="441.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.180392157   0 0 0 0 0.407843137   0 0 0 0 0.815686275  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="2.94170872%" id="linearGradient-2">
+            <stop stop-color="#69E0F7" offset="0%"></stop>
+            <stop stop-color="#1090F3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Samples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD">
+            <g id="Header" transform="translate(0.000000, 20.000000)">
+                <g id="Chart" filter="url(#filter-1)" transform="translate(27.000000, 0.000000)">
+                    <polygon id="Path-2-Copy-3" fill="url(#linearGradient-2)" points="18 0 36 9 36 31.5 18 40.5 2.29816166e-14 31.5 0 9"></polygon>
+                    <polygon id="Path-2-Copy-4" fill="#60D9F7" points="18 11 36 20 18 29 0 20"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

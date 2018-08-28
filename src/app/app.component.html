@@ -1,0 +1,114 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white borderHrNav">
+  <a class="navbar-brand">
+    <img class="logo" src="./../assets/images/Chart.svg" alt="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item mainMenu">
+        <a class="nav-link ml-5 mr-2" [routerLink]="['/requests']">Requests
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item ml-2 mr-2 mainMenu">
+        <a class="nav-link " [routerLink]="['/reviews']">Reviews</a>
+      </li>
+      <li class="nav-item ml-2 mr-2 mainMenu">
+        <a class="nav-link" [routerLink]="['/credits']">Credits</a>
+      </li>
+      <li class="nav-item ml-2 mr-5 mainMenu">
+        <a class="nav-link" [routerLink]="['/help']">Help</a>
+      </li>
+      <li class="nav-item ml-5 mr-5">
+
+      </li>
+      <li class="nav-item ml-5 mr-5">
+
+      </li>
+      <li class="nav-item ml-5 mr-5">
+
+      </li>
+      <li class="nav-item">
+        <form class="form-inline my-2 my-lg-0 ">
+          <input class="form-control mr-sm-2 mt-1" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </li>
+      <li class="nav-item ml-5 mr-5 ">
+        <a class="navbar-brand cursor alignItem">
+          <img src="./../assets/images/notification.svg" alt="notification">
+        </a>
+      </li>
+      <li class="nav-item ml-5 mr-5">
+   
+        <a class="container">
+            <img class="oval cursor" src="./../../assets/images/Avatar5.png" alt="Avatar">
+          </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="navVr">
+  <nav class="navbar-light bg-white borderVrNav ">
+    <div class="overflow mb-4" style="height: 300px;">
+    <ul class="nav flex-column ">
+      <li class="nav-item">
+        <a class="container">
+          <img class="friend cursor" src="./../../assets/images/Avatar3.png" alt="Avatar">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="container">
+          <img class="friend cursor" src="./../../assets/images/Avatar4.jpg" alt="Avatar">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="container">
+          <img class="friend cursor" src="./../../assets/images/Avatar5.png" alt="Avatar">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="container">
+          <img class="friend cursor" src="./../../assets/images/Avatar4.jpg" alt="Avatar">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="container">
+          <img class="friend cursor" src="./../../assets/images/Avatar3.png" alt="Avatar">
+        </a>
+      </li>
+      <li class="nav-item mb-5">
+        <a class="container">
+          <img class="friend cursor" src="./../../assets/images/Avatar5.png" alt="Avatar">
+        </a>
+      </li>
+    </ul>
+  </div>
+    <ul class="nav flex-column">
+      <div class="mt-5">
+        <li class="nav-item">
+          <a class="navbar-brand1 mb-2 mt-4 cursor">
+            <img class="bottomMenu " src="./../assets/images/2.svg" alt="logo">
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="navbar-brand1 mb-3 cursor">
+            <img class="bottomMenu" src="./../assets/images/1.svg" alt="logo">
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="navbar-brand1 cursor">
+            <img class="bottomMenu" src="./../assets/images/3.svg" alt="logo">
+          </a>
+        </li>
+      </div>
+
+    </ul>
+  </nav>
+</div>
+<div class="bodyStyle">
+  <router-outlet></router-outlet>
+</div>

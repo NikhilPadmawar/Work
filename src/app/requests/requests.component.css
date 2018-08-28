@@ -1,0 +1,163 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    background-color: #f2f4f7;
+    color: white;
+    width: 100px;
+    margin: 1px;
+
+  }
+  .chatBox{
+    background: linear-gradient(to top right, #e1e9f7 -8%, #ffffff 102%);
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+  }
+.activityBox{
+    background: #f2f4f7;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 220px;
+}
+.nav-link{
+    color: black;
+}
+.move{
+    height: 100px;
+    margin-top: -22px;
+    margin-left: -15px;
+}
+.labelColor{
+    color: black;
+    margin-top:10px;
+}
+.delete{
+    float: right !important;
+    height: 100px;
+    margin-top: -22px;
+}
+.activity{
+    height: 60px;
+}
+.add{
+    height: 20px;
+    width: 20px;
+}
+.addActivity{
+color: #177af1 !important;
+}
+.nameLabel{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.loading{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.graph{
+    width: 104%;
+    margin-left: -7px;
+}
+.cursor{
+    cursor: pointer;
+}
+.send
+{
+    margin-top: -65px;
+    margin-bottom: -75px;
+    margin-left: -24px;
+    width: 33px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+}
+.chatWindow{
+    height: 180px;
+}
+.overflow{
+    overflow: auto;
+}
+.colorInput{
+   background:  #d0dcf2;
+}
+.navBarChild{
+    margin-bottom: -5px;
+    margin-left: 20px;
+}
+
+.container {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    color:black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+.center{
+    margin-left: 45%;
+}
+.childMenu:active{
+color: black;
+}
+.childMenu{
+    color: #999;
+}
+input{
+    background-image: url("./../../assets/images/😊.png") ,url("./../../assets/images/Attachment.svg");
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 100.5% -23px, 104.5% -21px;
+    right: 5px;
+}

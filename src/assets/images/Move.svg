@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="100px" viewBox="0 0 102 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Move</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.1%" y="-81.2%" width="116.3%" height="275.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.180392157   0 0 0 0 0.407843137   0 0 0 0 0.815686275  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Samples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-129.000000, -723.000000)" fill="#DADDE8">
+            <g id="1" transform="translate(140.000000, 590.000000)">
+                <g id="2-copy" filter="url(#filter-1)" transform="translate(0.000000, 138.000000)">
+                    <g id="Move" transform="translate(30.000000, 30.000000)">
+                        <rect id="Rectangle-3" x="16.6666667" y="16.6666667" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="16.6666667" y="8.33333333" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="16.6666667" y="0" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="8.33333333" y="16.6666667" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="8.33333333" y="8.33333333" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="8.33333333" y="0" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="0" y="16.6666667" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="0" y="8.33333333" width="3.33333333" height="3.33333333"></rect>
+                        <rect id="Rectangle-3" x="0" y="0" width="3.33333333" height="3.33333333"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

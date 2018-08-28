@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="152px" viewBox="0 0 150 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.9%" y="-16.5%" width="120.9%" height="135.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.180392157   0 0 0 0 0.407843137   0 0 0 0 0.815686275  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="106.250163%" y1="22.36929%" x2="6.498095%" y2="85.3644397%" id="linearGradient-2">
+            <stop stop-color="#60D9F7" offset="0%"></stop>
+            <stop stop-color="#58BAF6" offset="45.6367866%"></stop>
+            <stop stop-color="#52A0F5" offset="70.7987856%"></stop>
+            <stop stop-color="#4D8CF4" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="17" cy="17" r="17"></circle>
+        <filter x="-264.7%" y="-220.6%" width="629.4%" height="629.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="27.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.262745098   0 0 0 0 0.57254902   0 0 0 0 0.945098039  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Samples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-290.000000, -232.000000)">
+            <g id="Chat" filter="url(#filter-1)" transform="translate(140.000000, 156.000000)">
+                <g id="Not-sure-of-the-success" transform="translate(80.000000, 56.000000)">
+                    <g id="Play" transform="translate(128.000000, 60.000000)">
+                        <g id="Oval-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <path d="M15.0285714,11.1200688 C14.8337857,10.9838696 14.5734286,10.9616697 14.3555,11.0630691 C14.1375714,11.1650685 14,11.3726673 14,11.600066 L14,22.4000035 C14,22.6274022 14.1375714,22.835001 14.3555,22.9370004 C14.4461429,22.9790001 14.5451429,23 14.6428571,23 C14.7791429,23 14.9154286,22.9592002 15.0285714,22.8800007 L22.7428571,17.480032 C22.9048571,17.3672326 23,17.1890336 23,17.0000347 C23,16.8110358 22.9048571,16.6334369 22.7428571,16.5200375 L15.0285714,11.1200688 Z" id="Page-1" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
