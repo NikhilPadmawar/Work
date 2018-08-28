@@ -54,6 +54,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "proxy-conf": "proxy.conf.json",
           "options": {
             "browserTarget": "chatApp:build"
           },
