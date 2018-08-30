@@ -54,44 +54,14 @@
       </div>
       <div class="navBarChild">
         <nav class="nav nav-pills nav-justified">
-          <a class="nav-link childMenu " href="#">Activity</a>
-          <a class="nav-link childMenu" href="#">Notes</a>
+          <a class="nav-link childMenu "  [routerLink]="['activity']">Activity</a>
+          <a class="nav-link childMenu" [routerLink]="['notes']">Notes</a>
         </nav>
       </div>
       <div class="p-2 activityBox overflow">
 
         <div class="d-flex flex-column ">
-          <div class="p-2 bg-white m-1 col-12 row activity">
-            <div class="col-2">
-              <img class="move" src="./../../assets/images/Move.svg" alt="logo">
-            </div>
-            <div class="col-8">
-              <label class="labelColor">Call Gleen M.</label>
-            </div>
-            <div class="col-2">
-              <img class="delete cursor" src="./../../assets/images/Shape.svg" alt="logo">
-            </div>
-          </div>
-          <div class="p-2 bg-white m-1 col-12 row activity">
-            <div class="col-2">
-              <img class="move" src="./../../assets/images/Move.svg" alt="logo">
-            </div>
-            <div class="col-8">
-              <label class="labelColor">Meet Gleen M.</label>
-            </div>
-            <div class="col-2">
-              <img class="delete cursor" src="./../../assets/images/Shape.svg" alt="logo">
-            </div>
-          </div>
-          <div class="p-2 bg-white m-1 mt-2 col-12 row" style="border:1px dashed grey;">
-            <div class="col-5"></div>
-            <div class="col-7">
-              <a class="addActivity cursor">
-                <img class="add mr-2" src="./../../assets/images/plus.svg" alt="logo">
-                <label class="cursor">Add new activity</label>
-              </a>
-            </div>
-          </div>
+            <router-outlet></router-outlet>
         </div>
       </div>
     </div>
